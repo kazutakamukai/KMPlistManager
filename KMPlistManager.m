@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Kazutaka Mukai. All rights reserved.
 //
 
-#import "PlistManager.h"
+#import "KMPlistManager.h"
 
 @implementation PlistManager
 
