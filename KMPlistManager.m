@@ -33,8 +33,7 @@
   return [self.plist objectForKey:key];
 }
 
-#pragma mark -
-#pragma mark Private
+#pragma mark - Private
 
 - (id)_initResource:(NSString *)resource {
   self = [super init];
