@@ -8,6 +8,12 @@
 
 #import "KMPlistManager.h"
 
+@interface PlistManager ()
+
+- (id)_initResource:(NSString *)resourc;
+
+@end
+
 @implementation PlistManager
 
 + (id)sharedInstance:(NSString *)resource {

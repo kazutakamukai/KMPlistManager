@@ -17,9 +17,3 @@
 - (NSDictionary *)objectForKey:(NSString *)key;
 
 @end
-
-@interface PlistManager ()
-
-- (id)_initResource:(NSString *)resourc;
-
-@end
