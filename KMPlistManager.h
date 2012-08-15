@@ -18,3 +18,8 @@
 
 @end
 
+@interface PlistManager ()
+
+- (id)_initResource:(NSString *)resourc;
+
+@end
