@@ -18,7 +18,7 @@
 
 @implementation PlistManager
 
-+ (id)sharedInstance:(NSString *)resource {
++ (id)sharedInstanceWithResource:(NSString *)resource {
   static NSMutableDictionary *sharedInstances = nil;
   id sharedInstance;
   

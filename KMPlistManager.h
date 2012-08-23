@@ -12,7 +12,7 @@
 
 @property (nonatomic, readonly) NSDictionary *plist;
 
-+ (id)sharedInstance:(NSString *)resource;
++ (id)sharedInstanceWithResource:(NSString *)resource;
 
 - (NSDictionary *)objectForKey:(NSString *)key;
 
