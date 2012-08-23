@@ -10,6 +10,8 @@
 
 @interface PlistManager ()
 
+@property (nonatomic, readwrite) NSDictionary *plist;
+
 - (id)_initResource:(NSString *)resourc;
 
 @end
@@ -46,7 +48,7 @@
   if (self) {
     NSString *path = [[NSBundle mainBundle] pathForResource:resource
                                                      ofType:@"plist"];
-    _plist = [NSDictionary dictionaryWithContentsOfFile:path];
+    self.plist = [NSDictionary dictionaryWithContentsOfFile:path];
   }
   
   return self;
