@@ -37,7 +37,7 @@
   return sharedInstance;
 }
 
-- (NSDictionary *)objectForKey:(NSString *)key {
+- (id)objectForKey:(NSString *)key {
   return [self.plist objectForKey:key];
 }
 

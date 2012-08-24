@@ -14,6 +14,6 @@
 
 + (id)sharedInstanceWithResource:(NSString *)resource;
 
-- (NSDictionary *)objectForKey:(NSString *)key;
+- (id)objectForKey:(NSString *)key;
 
 @end
