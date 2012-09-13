@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PlistManager : NSObject
+@interface KMPlistManager : NSObject
 
 @property (nonatomic, readonly) NSDictionary *plist;
 

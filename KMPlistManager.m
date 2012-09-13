@@ -8,7 +8,7 @@
 
 #import "KMPlistManager.h"
 
-@interface PlistManager ()
+@interface KMPlistManager ()
 
 @property (nonatomic, readwrite) NSDictionary *plist;
 
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation PlistManager
+@implementation KMPlistManager
 
 + (id)sharedInstanceWithResource:(NSString *)resource {
   static NSMutableDictionary *sharedInstances = nil;
